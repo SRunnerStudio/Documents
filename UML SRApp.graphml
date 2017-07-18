@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.17-->
+  <key attr.name="Beschreibung" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d0"/>
+    <node id="n0">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="28.0" width="157.0" x="-316.921875" y="-928.40234375"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="119.6162109375" x="18.69189453125" y="3.0">java.io.Serializable<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.681640625" x="65.1591796875" y="4.6494140625">fasd<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel/>
+            <y:MethodLabel/>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="1024.23046875" width="157.0" x="-478.70703125" y="-650.11328125"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="65.38818359375" x="45.805908203125" y="3.0">Attributes<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>- AttributeValue CON
+- AttributeValue AGI
+- AttributeValue REA
+- AttributeValue STR
+- AttributeValue WIL
+- AttributeValue LOG
+- AttributeValue INT
+- AttributeValue CHA
+- AttributeValue edge
+- int essence
+- string initiative
+- string matrixInitiativeAR
+- int judgeIntentions
+- int composure
+- int Memory
+- int carry
+- int movement
+- int physicalLimit
+- int mentalLimit
+- int socialLimit
+- int physicalDamageTrack
+- int StunDamageTrack
+- int physicalDamageTrackMax
+- int StunDamageTrackMax</y:AttributeLabel>
+            <y:MethodLabel>+ void calculateStats
++ void Atributes
++ int getPhysicalDamageTrackMax
++ void setPhysicalDamageTrackMax
++ int getStunDamageTrackMax
++ void setStunDamageTrackMax
++ int getPhysicalDamageTrack
++ void setPhysicalDamageTrack
++ int getStunDamageTrack
++ void setStunDamageTrack
++ int getEssence
++ String getInitiative
++ String getMatrixInitiativeAR
++ int getJudgeIntentions
++ int getComposure
++ int getMemory
++ int getCarry
++ int getMovement
++ int getPhysicalLimit
++ int getMentalLimit
++ int getSocialLimit
++ AttributeValue getCON
++ void setCON
++ AttributeValue getAGI
++ void setAGI
++ AttributeValue getREA
++ void setREA
++ AttributeValue getSTR
++ void setSTR
++ AttributeValue getWIL
++ void setWIL
++ AttributeValue getLOG
++ void setLOG
++ AttributeValue getINT
++ void setINT
++ AttributeValue getCHA
++ void setCHA
++ AttributeValue getEdge
++ void setEdge
++ void setPhysicalLimit
++ void setMentalLimit
++ void setSocialLimit</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="240.0" width="142.0" x="-309.421875" y="-650.11328125"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="92.841796875" x="24.5791015625" y="3.0">AttributeValue<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>- int maxValue
+- int startValue
+- int value
+- String name</y:AttributeLabel>
+            <y:MethodLabel>+ public AttributeValue
++ int getMaxValue
++ int getStartValue
++ int getValue
++ void setMaxValue
++ void setStartValue
++ void setValue
++ String getName
++ void setName</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="232.66889271351351" width="133.3340948756757" x="-137.421875" y="-650.11328125"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="52.38818359375" x="40.47295564096285" y="3.0">Contact<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>- String name
+- int loyality
+- int influence</y:AttributeLabel>
+            <y:MethodLabel>+ String getName
++ void setName
++ int getLoyalty
++ void setLoyalty
++ int getInfluence
++ void setInfluence
++ int getStartLoyalty
++ void setStartLoyalty
++ int getStartInfluence
++ void setStartInfluence</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="1014.6874999999999" width="181.25" x="8.578125" y="-650.11328125"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="53.1181640625" x="64.06591796875" y="3.0">Metatyp<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>- int KONStart
+- int KONMax
+- int GESStart
+- int GESMax
+- int REAStart
+- int REAMax
+- int STRStart
+- int STRMax
+- int WILStart
+- int WILMax
+- int LOGStart
+- int LOGMax
+- int INTStart
+- int INTMax
+- int CHAStart
+- int CHAMax
+- int EDGStart
+- int EDGMax
+- String Description
+- String metatyp
+- String metatypENG
+- String metatypDescription</y:AttributeLabel>
+            <y:MethodLabel>+ Metatyp
++ String getMetatypENG
++ void setMetatypENG
++ String getMetatypDescription
++ String getMetatyp
++ void setMetatyp
++ int getKONStart
++ void setKONStart
++ int getKONMax
++ void setKONMax
++ int getGESStart
++ void setGESStart
++ int getGESMax
++ void setGESMax
++ int getREAStart
++ void setREAStart
++ int getREAMax
++ void setREAMax
++ int getSTRStart
++ void setSTRStart
++ int getSTRMax
++ void setSTRMax
++ int getWILStart
++ void setWILStart
++ int getWILMax
++ void setWILMax
++ int getLOGStart
++ void setLOGStart
++ int getLOGMax
++ void setLOGMax
++ int getINTStart
++ void setINTStart
++  int getINTMax
++ void setINTMax
++ int getCHAStart
++ void setCHAStart
++ int getCHAMax
++ void setCHAMax
++ int getEDGStart
++ void setEDGStart
++ int getEDGMax
++ void setEDGMax
++ String getDescription
++ void setDescription</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="121.75" width="100.0" x="836.8554687499998" y="-887.77734375"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="49.5126953125" x="25.24365234375" y="26.701171875">Priority<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="Interface" use3DEffect="true">
+            <y:AttributeLabel>int getPriority</y:AttributeLabel>
+            <y:MethodLabel>void setPriority
+String getLetter</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="284.2499999999999" width="142.0" x="219.828125" y="-650.11328125"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="103.6708984375" x="19.16455078125" y="3.0">PriorityAttribute<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>- int A = 24
+- int B = 20
+- int C = 16
+- int D = 14
+- int E = 12
+- int priority</y:AttributeLabel>
+            <y:MethodLabel>+ PriorityAttribute
++ int getAttributePoints
++ String getLetter
++ int getA
+public int getB
+public int getC
++ int getD
++ int getE
++ int getPriority
++ void setPriority</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="284.2499999999999" width="142.0" x="391.828125" y="-650.11328125"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="86.3544921875" x="27.82275390625" y="3.0">PriorityMagic<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>- String[ ][ ] A
+- String[ ][ ] B
+- String[ ][ ] C
+- String[ ][ ] D
+- String[ ][ ] E
+- int priority</y:AttributeLabel>
+            <y:MethodLabel>public PriorityMagic
++ String[ ][ ] getMagic
++ String getLetter
++ String[ ][ ] getA
++ String[ ][ ] getB
++ String[ ][ ] getC
++ String[ ][ ] getD
++ String[ ][ ] getE
++ int getPriority
++ void setPriority</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="284.2499999999999" width="144.90234375" x="563.828125" y="-650.11328125"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="97.90087890625" x="23.500732421875" y="3.0">PriotityMetatyp<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>- String[][] A
+- String[][] B
+- String[][] C
+- String[][] D 
+- String[][] E 
+- int priority</y:AttributeLabel>
+            <y:MethodLabel>+ String[][] getMetatypes
++ String getLetter
++ PriorityMetatyp
++ String[][] getA
++ String[][] getB
++ String[][] getC
++ String[][] getD
++ String[][] getE
++ int getPriority
++ void setPriority</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="284.2499999999999" width="128.125" x="738.7304687500002" y="-650.11328125"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="115.99169921875" x="6.066650390625" y="3.0">PriorityRessource<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>- int A 
+- int B 
+- int C 
+- int D 
+- int E
+- int priority</y:AttributeLabel>
+            <y:MethodLabel>+ int getRessources
++ String getLetter
++ PriorityRessource
++ int getA
++ int getB
++ int getC
++ int getD
++ int getE
++ int getPriority
++ void setPriority</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="284.2499999999999" width="128.125" x="896.8554687500002" y="-650.11328125"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="83.47900390625" x="22.322998046875" y="3.0">PrioritySkills<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>- int[] A 
+- int[] B 
+- int[] C 
+- int[] D 
+- int[] E 
+- int priority</y:AttributeLabel>
+            <y:MethodLabel>+ int[ ] getSkillPoints
++ String getLetter
++ PrioritySkills
++ int [ ] getA
++ int [ ] getB
++ int [ ] getC
++ int [ ] getD
++ int [ ] getE
++ int getPriority
++ void setPriority</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="76.4375" width="181.25" x="1054.98046875" y="-650.11328125"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="82.0126953125" x="49.61865234375" y="3.0">ReplaceFont<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel/>
+            <y:MethodLabel>+ static void replaceDefaultFont
++ static void replaceFont</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n12">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="110.8125" width="116.0" x="-624.7070312500001" y="-650.11328125"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="83.47265625" x="16.263671875" y="3.0">SerialBitmap<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>+ Bitmap bitmap</y:AttributeLabel>
+            <y:MethodLabel>+ SerialBitmap
+- void writeObject
+- void readObject</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n13">
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="1402.6437258378378" width="197.92096864864868" x="-852.627999898649" y="-650.11328125"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="48.0654296875" x="74.92776948057434" y="3.0">Quality<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>- String name
+- String description
+- int karma
+- int KONStartModifier
+- int KONMaxModifier
+- int GESStartModifier
+- int GESMaxModifier
+- int REAStartModifier
+- int REAMaxModifier
+- int STRStartModifier
+- int STRMaxModifier
+- int WILStartModifier
+- int WILMaxModifier
+- int LOGStartModifier
+- int LOGMaxModifier
+- int INTStartModifier
+- int INTMaxModifier
+- int CHAStartModifier
+- int CHAMaxModifier
+- int EDGStartModifier
+- int EDGMaxModifier
+- int physicalLimitModifier
+- int mentalLimitModifier
+- int socialLimitModifier
+- int physicalDamageTrackModifier
+- int stunDamageTrackModifier
+- int initiativeModifier
+- boolean increasable
+- int maxIncrease
+- boolean advantage</y:AttributeLabel>
+            <y:MethodLabel>+ Quality
++ int getMaxIncrease
++ boolean isAdvantage
++ void setAdvantage
++ boolean isIncreasable
++ void setIncreasable
++ int isMaxIncrease
++ void setMaxIncrease
++ String getName
++ void setName
++ String getDescription
++ void setDescription
++ int getKarma
++ void setKarma
++ int getKONStartModifier
++ void setKONStartModifier
++ int getKONMaxModifier
++ void setKONMaxModifier
++ int getGESStartModifier
++ void setGESStartModifier
++ int getGESMaxModifier
++ void setGESMaxModifier
++ int getREAStartModifier
++ void setREAStartModifier
++ int getREAMaxModifier
++ void setREAMaxModifier
++ int getSTRStartModifier
++ void setSTRStartModifier
++ int getSTRMaxModifier
++ void setSTRMaxModifier
++ int getWILStartModifier
++ void setWILStartModifier
++ int getWILMaxModifier
++ void setWILMaxModifier
++ int getLOGStartModifier
++ void setLOGStartModifier
++ int getLOGMaxModifier
++ void setLOGMaxModifier
++ int getINTStartModifier
++ void setINTStartModifier
++ int getINTMaxModifier
++ void setINTMaxModifier
++ int getCHAStartModifier
++ void setCHAStartModifier
++ int getCHAMaxModifier
++ void setCHAMaxModifier
++ int getEDGStartModifier
++ void setEDGStartModifier
++ int getEDGMaxModifier
++ void setEDGMaxModifier
++ int getPhysicalLimitModifier
++ void setPhysicalLimitModifier
++ int getMentalLimitModifier
++ void setMentalLimitModifier
++ int getSocialLimitModifier
++ void setSocialLimitModifier
++ int getPhysicalDamageTrackModifier
++ void setPhysicalDamageTrackModifier
++ int getStunDamageTrackModifier
++ void setStunDamageTrackModifier
++ int getInitiativeModifier
++ void setInitiativeModifier</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n14">
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="412.01687109189186" width="178.67012289729735" x="-1061.2981227959463" y="-650.11328125"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="30.736328125" x="73.96689738614867" y="3.0">Skill<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>- int value
+- String name
+- boolean specialization
+- String specializationName
+- String connectedAttribute
+- String connectedPackage
+- boolean packageBound
+- int startValue</y:AttributeLabel>
+            <y:MethodLabel>+ Skill
++ int getValue
++ void setValue
++ String getName
++ void setName
++ boolean isSpecialization
++ void setSpecialization
++ String getSpecializationName
++ void setSpecializationName
++ String getConnectedAttribute
++ void setConnectedAttribute
++ String getConnectedPackage
++ void setConnectedPackage
++ boolean isPackageBound
++ void setPackageBound
++ int getStartValue
++ void setStartValue</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n15">
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="1606.8693647913512" width="210.00483286486474" x="-1301.3029556608108" y="-650.1132812500001"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="82.75537109375" x="63.62473088555737" y="3.0">SRCharacter<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+            <y:AttributeLabel>- String name
+- String streetName
+- Metatyp metatype
+- String gender
+- String archetype
+- String background
+- String ethnicity
+- int age
+- int heigt
+- int mass
+- int karma
+- int totalKarma
+- SerialBitmap profileImage
+- Attributes attributes
+- ArrayList&lt;Skill&gt; skills
+- ArrayList&lt;Quality&gt; advantages
+- ArrayList&lt;Quality&gt; disadvantages
+- ArrayList&lt;Quality&gt; qualities
+- ArrayList&lt;Contact&gt; connections
+- PrioritySkills prioritySkills
+- PriorityAttribute priorityAttribute
+- PriorityMagic priorityMagic
+- PriorityMetatyp priorityMetatyp
+- PriorityRessource priorityRessource
+- int specialAttributePoints
+- int attributePoints
+- int skillPoints
+- int skillPackagePoints
+- int skillKnowledgePoints
+- int connectionPoints
+- int karmaAdvantages
+- int karmaDisadvantages
+- boolean isDead</y:AttributeLabel>
+            <y:MethodLabel>+ SRCharacter
++ ArrayList&lt;Quality&gt; getQualities
++ boolean isDead
++ void setDead
++ int getKarmaAdvantages
++ void setKarmaAdvantages
++ int getKarmaDisadvantages
++ void setKarmaDisadvantages
++ void addSkill
++ SerialBitmap getProfileImage
++ void setProfileImage
++ int getTotalKarma
++ void setTotalKarma
++ String getName
++ void setName
++ String getGender
++ void setGender
++ int getAge
++ void setAge
++ int getHeigt
++ void setHeigt
++ int getMass
++ void setMass
++ int getKarma
++ void setKarma
++ String getArchetype
++ void setArchetype
++ Attributes getAttributes
++ void setAttributes
++ ArrayList&lt;Skill&gt; getSkills
++ void setSkills
++ ArrayList&lt;Quality&gt; getAdvantages
++ void setAdvantages
++ void addAdvantage
++ void addDisadvantage
++ void removeAdvantage
++ void removeDisadvantage
++ ArrayList&lt;Quality&gt; getDisadvantages
++ void setDisadvantages
++ ArrayList&lt;Contact&gt; getConnections
++ void setConnections
++ Metatyp getMetatype
++ void setMetatype
++ String getBackground
++ void setBackground
++ PrioritySkills getPrioritySkills
++ void setPrioritySkills
++ PriorityAttribute getPriorityAttribute
++ void setPriorityAttribute
++ PriorityMagic getPriorityMagic
++ void setPriorityMagic
++ PriorityMetatyp getPriorityMetatyp
++ void setPriorityMetatyp
++ PriorityRessource getPriorityRessource
++ void setPriorityRessource
++ int getSpecialAttributePoints
++ void setSpecialAttributePoints
++ int getAttributePoints
++ void setAttributePoints
++ int getSkillPoints
++ void setSkillPoints
++ int getSkillPackagePoints
++ void setSkillPackagePoints
++ String getStreetName
++ void setStreetName
++ String getEthnicity
++ void setEthnicity
++ int getSkillKnowledgePoints
++ void setSkillKnowledgePoints
++ int calculateSkillKnowledgePoints
++ int getConnectionPoints
++ void setConnectionPoints
++ int calculateConnectionPoints</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <edge id="e0" source="n1" target="n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-400.20703125" y="-758.04296875"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n2" target="n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-238.421875" y="-703.04296875"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n3" target="n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-79.421875" y="-698.777465820312"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n4" target="n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="99.203125" y="-705.027465820312"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n6" target="n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="290.828125" y="-701.902465820312"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n6" target="n5">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="290.828125" y="-703.464965820312"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n7" target="n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="462.828125" y="-690.964965820312"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n7" target="n5">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="462.828125" y="-694.089965820312"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e8" source="n8" target="n5">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="636.279296875" y="-705.027465820312"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e9" source="n8" target="n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="636.279296875" y="-701.902465820312"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e10" source="n9" target="n5">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="802.7929687500002" y="-694.089965820312"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e11" source="n9" target="n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="802.7929687500002" y="-694.089965820312"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e12" source="n10" target="n5">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="960.9179687500002" y="-715.964965820312"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e13" source="n10" target="n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="960.9179687500002" y="-712.839965820312"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e14" source="n12" target="n0">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-566.7070312500001" y="-736.2774658203122"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e15" source="n13" target="n0">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-753.6675155743246" y="-695.9486441167589"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e16" source="n14" target="n0">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-971.9630613472975" y="-685.6981937816216"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e17" source="n15" target="n0">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-1196.3005392283785" y="-683.0376292890452"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d7">
+    <y:Resources/>
+  </data>
+</graphml>
